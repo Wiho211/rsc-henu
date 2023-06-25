@@ -1,0 +1,250 @@
+BODY {
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  word-wrap: break-word;
+  padding-top: 0px;
+}
+DL {
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  word-wrap: break-word;
+  padding-top: 0px;
+}
+DT {
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  word-wrap: break-word;
+  padding-top: 0px;
+}
+DD {
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  word-wrap: break-word;
+  padding-top: 0px;
+}
+UL {
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  word-wrap: break-word;
+  padding-top: 0px;
+}
+OL {
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  word-wrap: break-word;
+  padding-top: 0px;
+}
+LI {
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  word-wrap: break-word;
+  padding-top: 0px;
+}
+BODY {
+  font: 12px/1.5 tahoma, arial, 微软雅黑, sans-serif;
+}
+TABLE {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+IMG {
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-style: none;
+}
+PRE {
+  word-wrap: break-word;
+}
+
+IMG {
+  vertical-align: middle;
+}
+TH {
+  vertical-align: middle;
+}
+
+.col-left {
+  float: left;
+}
+.col-auto {
+  overflow: hidden;
+  _zoom: 1;
+  _float: left;
+}
+.col-right {
+  float: right;
+}
+
+A {
+  color: #444;
+  text-decoration: none;
+}
+A:hover {
+  color: #1e50a2;
+  text-decoration: underline;
+}
+
+.channel-slide {
+  border-bottom: #cacaca 1px solid;
+  border-left: #cacaca 1px solid;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-top: #cacaca 1px solid;
+  border-right: #cacaca 1px solid;
+  padding-top: 3px;
+}
+.channel-slide .thumb {
+  width: 94px;
+  float: left;
+}
+.channel-slide .thumb LI {
+  position: relative;
+  margin-top: 4px;
+}
+.channel-slide .thumb LI A .icon {
+  display: none;
+}
+.channel-slide .thumb LI.on A .icon {
+  position: absolute;
+  width: 8px;
+  display: block;
+  background: url(channel_slide.jpg) no-repeat;
+  height: 8px;
+  top: 25px;
+  right: -2px;
+}
+.channel-slide .thumb LI IMG {
+  border-bottom: #fff 3px solid;
+  border-left: #fff 3px solid;
+  border-top: #fff 3px solid;
+  border-right: #fff 3px solid;
+}
+.channel-slide .thumb LI.on IMG {
+  border-bottom-color: #6e96be;
+  border-top-color: #6e96be;
+  border-right-color: #6e96be;
+  border-left-color: #6e96be;
+}
+.channel-slide .photo {
+  position: relative;
+  width: 398px;
+  height: 234px;
+  overflow: hidden;
+  _width: 392px;
+  _zoom: 1;
+  _float: left;
+}
+.channel-slide .photo LI {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+}
+.channel-slide .title {
+  background: url(v9/channel_slide.jpg) repeat-x left -17px;
+  height: 60px;
+}
+.channel-slide .title P {
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: none;
+  color: #666;
+  padding-top: 8px;
+}
+.channel-slide .title P STRONG {
+  line-height: 22px;
+  color: #0066cc;
+  font-size: 18px;
+}
+
+.FocusPic {
+  position: relative;
+  zoom: 1;
+  overflow: hidden;
+}
+.FocusPic .content {
+  overflow: hidden;
+}
+.FocusPic .changeDiv A {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+}
+.FocusPic .title-bg {
+  position: absolute;
+  line-height: 30px;
+  width: 434px;
+  bottom: 0px;
+  height: 30px;
+  overflow: hidden;
+  left: 0px;
+}
+.FocusPic .title {
+  position: absolute;
+  line-height: 30px;
+  width: 434px;
+  bottom: 0px;
+  height: 30px;
+  overflow: hidden;
+  left: 0px;
+}
+.FocusPic .title-bg {
+  filter: alpha(opacity=50);
+  background: #000;
+  opacity: 0.5;
+}
+.FocusPic .title A {
+  padding-left: 15px;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+.FocusPic .change {
+  z-index: 9999;
+  position: absolute;
+  text-align: right;
+  bottom: 1px;
+  height: 20px;
+  right: 5px;
+  _right: 4px;
+}
+.FocusPic .change I {
+  line-height: 10px;
+  font-style: normal;
+  padding-left: 4px;
+  padding-right: 4px;
+  zoom: 1;
+  display: inline;
+  font-family: Arial;
+  background: #fff;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 5px;
+  height: 5px;
+  overflow: hidden;
+}
+.FocusPic .change I.cur {
+  background: #9a0000;
+  color: #9a0000;
+  border-radius: 50px;
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+fieldset,
+legend {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+.clear {
+  clear: both;
+  *display: inline;
+}
+
+/*menu*/
+#menu {
+  height: 41px;
+  line-height: 41px;
+  width: 1200px;
+  overflow: hidden;
+}
+#nav {
+  margin: 0;
+  width: 1200px;
+  display: block;
+  font-size: 16px;
+  height: 41px;
+  line-height: 41px;
+  overflow: hidden;
+}
+#nav .mainlevel {
+  background: url(d2.jpg) 0 0 repeat-x;
+  float: left;
+  color: #a6043c;
+  width: 130px;
+}
+#nav .mainlevel a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 41px;
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+#nav .mainlevel:hover {
+  color: #84313a;
+  line-height: 41px;
+  text-decoration: none;
+  background: #fff;
+}
+
+#nav .mainlevel a:hover {
+  color: #67010c;
+}
+#nav .mainlevel:hover a {
+  color: #67010c;
+}
+
+#nav .mainlevel1 {
+  background: url(d1.jpg) 0 0 repeat-x;
+  float: left;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  /* overflow:hidden; */
+  width: auto;
+  min-width: 130px;
+}
+#nav .mainlevel1 li {
+  list-style: none;
+  height: 40px;
+  line-height: 40px; /* overflow:hidden; */
+  font-weight: 100;
+  font-size: 14px;
+}
+#nav .mainlevel1 a {
+  color: #67010c;
+  text-decoration: none;
+  line-height: 40px;
+  height: 40px;
+  padding: 0px 10px;
+  /* overflow:hidden; */
+  text-align: center;
+  display: block;
+  background: #fff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+#nav .mainlevel1 a:hover {
+  color: #84313a;
+  line-height: 40px;
+  text-decoration: none;
+  background: #fff;
+}
+#nav .mainlevel ul {
+  z-index: 999;
+  display: none;
+  position: absolute;
+}
+#nav .mainlevel li {
+  width: 100%;
+
+  white-space: nowrap;
+}

@@ -1,0 +1,237 @@
+.zp-l {
+  width: 580px;
+  padding-right: 30px;
+  float: left;
+  margin-top: 30px;
+}
+.zp-r {
+  width: 590px;
+  float: left;
+  margin-top: 30px;
+}
+.zp-xy {
+  width: 100%;
+  float: left;
+  margin-top: 15px;
+}
+.title {
+  line-height: 50px;
+}
+.title h2 {
+  float: left;
+  color: #84000d;
+  font-weight: bold;
+  font-size: 20px;
+}
+.title a {
+  float: right;
+  color: #777;
+  font-size: 16px;
+}
+.zplist li {
+  line-height: 40px;
+  font-size: 16px;
+  position: relative;
+  padding-right: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.zplist li a {
+  color: #555;
+}
+.zplist li span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  color: #777;
+}
+.zplist li:hover a {
+  color: #e60012;
+}
+
+.xyzp {
+  margin-top: 15px;
+}
+.zp-xy .clearfix li a {
+  line-height: 50px;
+  height: auto;
+}
+.xyzp li {
+  width: 20%;
+  float: left;
+  font-size: 16px;
+  background: none;
+  color: #555;
+  line-height: 35px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  height: auto;
+  padding: 0;
+}
+.xyzp li a {
+  color: #0000ee;
+  display: block;
+}
+.yxy {
+  margin-top: 25px;
+}
+.yxy h2 {
+  border: 1px solid #ccc;
+  float: left;
+  width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #555;
+}
+.yxy-r {
+  width: 1100px;
+  box-sizing: border-box;
+  float: right;
+}
+.yxy-r li {
+  font-size: 16px;
+  background: none;
+  line-height: 35px;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: #555;
+}
+.yxy-r li a,
+.yxy h2 a {
+  display: block;
+  color: #0000ee;
+}
+
+.vsbcontent-table-container-outer {
+  position: relative;
+}
+.vsbcontent-table-container {
+  width: 98%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 2px;
+}
+.vsbcontent-table-container::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+}
+.vsbcontent-table-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.vsbcontent-table-container-fade {
+  position: absolute;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    #fff
+  );
+  background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+  background-image: -ms-linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+  background-image: -o-linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+}
+.dpz {
+  margin-top: 30px;
+}
+.dpz table {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  line-height: 250%;
+  border-top: #d8d8d8 1px solid;
+  border-bottom: #d8d8d8 1px solid;
+  border-collapse: collapse;
+}
+.dpz table thead th {
+  background: #fdfdfd;
+}
+.dpz table th {
+  color: #6a6a6a;
+  line-height: 300%;
+}
+.dpz table tr {
+  border-bottom: #d8d8d8 1px solid;
+  border-top: #d8d8d8 1px solid;
+}
+.dpz table td {
+  color: #555;
+  border-left: 1px dotted #ccc;
+  border-right: 1px dotted #ccc;
+}
+.dpz table td a,
+.dpz table tr a {
+  color: #0000ee;
+  font-size: 16px;
+}
+.xyzp li {
+  width: 20%;
+  float: left;
+  font-size: 16px;
+  background: none;
+  color: #555;
+  line-height: 35px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  height: auto;
+  padding: 0;
+}
+.xyzp li a {
+  height: 72px;
+  line-height: inherit;
+}
+.vsbcontent-table-container-outer {
+  position: relative;
+}
+.vsbcontent-table-container {
+  width: 98%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 2px;
+}
+.vsbcontent-table-container::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+}
+.vsbcontent-table-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.vsbcontent-table-container-fade {
+  position: absolute;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    #fff
+  );
+  background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+  background-image: -ms-linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+  background-image: -o-linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), #fff);
+}
+.yqlink h2 {
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.yqlink li {
+  line-height: 26px;
+}
+.yqlink li a {
+  font-size: 15px;
+  color: #fff;
+}

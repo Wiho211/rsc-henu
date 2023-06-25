@@ -1,0 +1,364 @@
+/* 鎳掍汉鍥惧簱 鎼滈泦鏁寸悊 www.lanrentuku.com */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/*鐒︾偣鍥�*/
+.focus {
+  position: relative;
+  width: 434px;
+  height: 336px;
+  float: left;
+  margin-top: 15px;
+  z-index: 9999;
+}
+.focus img {
+  width: 434px;
+  height: 336px;
+}
+.focus .shadow .title {
+  width: 260px;
+  height: 65px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.focus .shadow .title a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bolder;
+  overflow: hidden;
+}
+.focus .btn {
+  position: absolute;
+  bottom: 34px;
+  left: 510px;
+  overflow: hidden;
+  zoom: 1;
+}
+.focus .btn a {
+  position: relative;
+  display: inline;
+  width: 13px;
+  height: 13px;
+  border-radius: 7px;
+  margin: 0 5px;
+  color: #b0b0b0;
+  font: 12px/15px "\5B8B\4F53";
+  text-decoration: none;
+  text-align: center;
+  outline: 0;
+  float: left;
+  background: #d9d9d9;
+}
+.focus .btn a:hover,
+.focus .btn a.current {
+  cursor: pointer;
+  background: #fc114a;
+}
+.focus .fPic {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.focus .D1fBt {
+  overflow: hidden;
+  zoom: 1;
+  height: 16px;
+  z-index: 10;
+}
+.focus .shadow {
+  width: 100%;
+  position: absolute;
+  bottom: -55px;
+  left: 0px;
+  z-index: 10;
+  height: 60px;
+  line-height: 60px;
+  filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;
+  display: block;
+  text-align: left;
+}
+.focus .shadow a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  overflow: hidden;
+  margin-left: 0px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.focus .fcon {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: none;
+  background: url(../images/1.png) no-repeat;
+  width: 434px;
+  height: 336px;
+  padding: 15px;
+  padding-left: 0px;
+  box-sizing: border-box;
+}
+.focus .fcon img {
+  display: block;
+}
+.focus .fcon h3 {
+  padding: 35px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.focus .fcon p {
+  padding: 35px;
+  font-size: 14px;
+  padding-top: 0px;
+  line-height: 30px;
+}
+.focus .fbg {
+  bottom: 35px;
+  right: 0px;
+  position: absolute;
+  height: 21px;
+  text-align: center;
+  z-index: 200;
+}
+.focus .fbg div {
+  margin: 0px auto 0;
+  overflow: hidden;
+  zoom: 1;
+  height: 14px;
+  margin-right: 65px;
+}
+.focus .D1fBt a {
+  position: relative;
+  display: inline;
+  width: 12px;
+  height: 12px;
+  border-radius: 7px;
+  margin: 0 5px;
+  color: #b0b0b0;
+  font: 12px/15px "\5B8B\4F53";
+  text-decoration: none;
+  text-align: center;
+  outline: 0;
+  float: left;
+  background: #fff;
+  border: 1px #84000d solid;
+}
+.focus .D1fBt .current,
+.focus .D1fBt a:hover {
+  background: #84000d;
+}
+.focus .D1fBt img {
+  display: none;
+}
+.focus .D1fBt i {
+  display: none;
+  font-style: normal;
+}
+.focus .prev,
+.focus .next {
+  position: absolute;
+  width: 40px;
+  height: 74px;
+  background: url(../images/focus_btn.jpg) no-repeat;
+}
+.focus .prev {
+  top: 50%;
+  margin-top: -37px;
+  left: 0;
+  background-position: 0 -74px;
+  cursor: pointer;
+}
+.focus .next {
+  top: 50%;
+  margin-top: -37px;
+  right: 0;
+  background-position: -40px -74px;
+  cursor: pointer;
+}
+.focus .prev:hover {
+  background-position: 0 0;
+}
+.focus .next:hover {
+  background-position: -40px 0;
+}
+
+.focus2 {
+  position: relative;
+  width: 861px;
+  height: 323px;
+  float: left;
+  z-index: 9999;
+}
+.focus2 img {
+  width: 861px;
+  height: 323px;
+}
+.focus2 .shadow .title {
+  width: 260px;
+  height: 65px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.focus2 .shadow .title a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bolder;
+  overflow: hidden;
+}
+.focus2 .btn {
+  position: absolute;
+  bottom: 34px;
+  left: 510px;
+  overflow: hidden;
+  zoom: 1;
+}
+.focus2 .btn a {
+  position: relative;
+  display: inline;
+  width: 13px;
+  height: 13px;
+  border-radius: 7px;
+  margin: 0 5px;
+  color: #b0b0b0;
+  font: 12px/15px "\5B8B\4F53";
+  text-decoration: none;
+  text-align: center;
+  outline: 0;
+  float: left;
+  background: #d9d9d9;
+}
+.focus2 .btn a:hover,
+.focus2 .btn a.current {
+  cursor: pointer;
+  background: #fc114a;
+}
+.focus2 .fPic {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.focus2 .D1fBt {
+  overflow: hidden;
+  zoom: 1;
+  height: 16px;
+  z-index: 10;
+}
+.focus2 .shadow {
+  width: 100%;
+  position: absolute;
+  bottom: -55px;
+  left: 0px;
+  z-index: 10;
+  height: 60px;
+  line-height: 60px;
+  filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;
+  display: block;
+  text-align: left;
+}
+.focus2 .shadow a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  overflow: hidden;
+  margin-left: 0px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.focus2 .fcon {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: none;
+  width: 861px;
+  height: 323px;
+  padding: 15px;
+  padding-left: 0px;
+  box-sizing: border-box;
+}
+.focus2 .fcon img {
+  display: block;
+}
+.focus2 .fcon h3 {
+  padding: 35px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.focus2 .fcon p {
+  padding: 35px;
+  font-size: 14px;
+  padding-top: 0px;
+  line-height: 30px;
+}
+.focus2 .fbg {
+  bottom: 35px;
+  right: 0px;
+  position: absolute;
+  height: 21px;
+  text-align: center;
+  z-index: 200;
+}
+.focus2 .fbg div {
+  margin: 0px auto 0;
+  overflow: hidden;
+  zoom: 1;
+  height: 14px;
+  margin-right: 65px;
+}
+.focus2 .D1fBt a {
+  position: relative;
+  display: inline;
+  width: 12px;
+  height: 12px;
+  border-radius: 7px;
+  margin: 0 5px;
+  color: #b0b0b0;
+  font: 12px/15px "\5B8B\4F53";
+  text-decoration: none;
+  text-align: center;
+  outline: 0;
+  float: left;
+  background: #fff;
+  border: 1px #84000d solid;
+}
+.focus2 .D1fBt .current,
+.focus2 .D1fBt a:hover {
+  background: #84000d;
+}
+.focus2 .D1fBt img {
+  display: none;
+}
+.focus2 .D1fBt i {
+  display: none;
+  font-style: normal;
+}
+.focus2 .prev,
+.focus2 .next {
+  position: absolute;
+  width: 40px;
+  height: 74px;
+  background: url(../images/focus_btn.jpg) no-repeat;
+}
+.focus2 .prev {
+  top: 50%;
+  margin-top: -37px;
+  left: 0;
+  background-position: 0 -74px;
+  cursor: pointer;
+}
+.focus2 .next {
+  top: 50%;
+  margin-top: -37px;
+  right: 0;
+  background-position: -40px -74px;
+  cursor: pointer;
+}
+.focus2 .prev:hover {
+  background-position: 0 0;
+}
+.focus2 .next:hover {
+  background-position: -40px 0;
+}
